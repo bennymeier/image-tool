@@ -1,0 +1,22 @@
+{
+  "name": "image-tool",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "https://github.com/bennymeier/image-tool.git",
+  "author": "Benjamin Meier <benjamin.meier@unitedplanet.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --config nodemon.json src/index.ts",
+    "dev:debug": "nodemon --config nodemon.json --inspect-brk src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.3",
+    "@types/sharp": "^0.29.2",
+    "nodemon": "^2.0.13",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "sharp": "^0.29.1"
+  }
+}
